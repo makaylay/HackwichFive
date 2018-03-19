@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //let text = myFriendsArray[indexPath.row]
         
-        let text = restaurantImageData[indexPath.row]
+        let text = kapoleiRestaurantsArray[indexPath.row]
         
         cell.textLabel?.text = text
         
