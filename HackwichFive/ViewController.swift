@@ -12,11 +12,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     //Declare array here
     var myFriendsArray = ["Mike Wazowski", "Woody", "Belle", "Winnie the Pooh", "Stitch"]
+    var kapoleiRestaurantsArray = ["Kapolei Kalapawai"]
+    var restaurantImageData = [String]()
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         self.tableView.dataSource = self
+        tableView.delegate = self
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //Part 6
+        let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        
+        //access images from dictionary from Property List
+        restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,6 +55,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = text
         
         return cell
+    }
+    
+    //part 7
+    func tableView(_tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        tableView.deselectRow(at: <#T##IndexPath#> as IndexPath, animated: true)
     }
 
 }

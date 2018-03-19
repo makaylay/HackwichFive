@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5F03CA20604AC400E70F30 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F5F03C920604AC400E70F30 /* Property List.plist */; };
+		7F5F03CC2060525800E70F30 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F03CB2060525800E70F30 /* detailViewController.swift */; };
 		B347B3112044B1D600C17C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347B3102044B1D600C17C7B /* AppDelegate.swift */; };
 		B347B3132044B1D600C17C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347B3122044B1D600C17C7B /* ViewController.swift */; };
 		B347B3162044B1D600C17C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B347B3142044B1D600C17C7B /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F5F03C920604AC400E70F30 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		7F5F03CB2060525800E70F30 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		B347B30D2044B1D600C17C7B /* HackwichFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B347B3102044B1D600C17C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B347B3122044B1D600C17C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				B347B3102044B1D600C17C7B /* AppDelegate.swift */,
 				B347B3122044B1D600C17C7B /* ViewController.swift */,
+				7F5F03CB2060525800E70F30 /* detailViewController.swift */,
+				7F5F03C920604AC400E70F30 /* Property List.plist */,
 				B347B3142044B1D600C17C7B /* Main.storyboard */,
 				B347B3172044B1D600C17C7B /* Assets.xcassets */,
 				B347B3192044B1D600C17C7B /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				B347B31B2044B1D600C17C7B /* LaunchScreen.storyboard in Resources */,
 				B347B3182044B1D600C17C7B /* Assets.xcassets in Resources */,
+				7F5F03CA20604AC400E70F30 /* Property List.plist in Resources */,
 				B347B3162044B1D600C17C7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				B347B3132044B1D600C17C7B /* ViewController.swift in Sources */,
 				B347B3112044B1D600C17C7B /* AppDelegate.swift in Sources */,
+				7F5F03CC2060525800E70F30 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U96R3NS48;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HackwichFive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichFive;
@@ -290,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U96R3NS48;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HackwichFive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichFive;
